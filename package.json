@@ -1,0 +1,24 @@
+{
+  "name": "requester",
+  "version": "0.0.0",
+  "description": "XMLHttpRequest with promises and cancelable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicasioc/requester.git"
+  },
+  "keywords": [
+    "XMLHttpRequest",
+    "promises",
+    "cancelable"
+  ],
+  "author": "Nicasio Cascudo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicasioc/requester/issues"
+  },
+  "homepage": "https://github.com/Nicasioc/requester#readme"
+}
