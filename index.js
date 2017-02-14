@@ -26,10 +26,6 @@ function get(url) {
   return promise;
 };
 
-get("http://google.com").then(function(r) {console.log(r);})
-
-/*
 module.exports = {
-  get: require("./get")
+  get: get
 }
-*/

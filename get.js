@@ -1,6 +1,6 @@
 var Promise = require("promise")
 
-module.export = function (url) {
+function get(url) {
   
   var promise = new Promise(function (accept, cancel) {
 
@@ -27,6 +27,8 @@ module.export = function (url) {
   
   return promise;
 };
+
+module.export = get;
 /*
 get("url").then(()=>{})
 get("url").cancel();
